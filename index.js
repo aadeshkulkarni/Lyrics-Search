@@ -100,6 +100,5 @@ async function getLyrics(artist,songTitle){
     result.innerHTML=`<h2><strong>${artist}</strong> - ${songTitle}</h2>
     <span>${lyrics}</span>
     `;
-
     more.innerHTML="";
 }
