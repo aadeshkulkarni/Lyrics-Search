@@ -22,7 +22,7 @@ button:focus{
 }
 
 header{
-    background-image:url('https://images.unsplash.com/photo-1595333640417-1941f05c7fe2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80');
+    background-image:url('https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
     background-repeat: no-repeat;
     background-size:cover;
     background-position:center center;
@@ -66,7 +66,7 @@ form input{
 }
 
 form button{
-    background-color:#E056FD;
+    background-color:#900d0d;
     border:0;
     border-radius:50px;
     color:#FFF;
@@ -76,9 +76,19 @@ form button{
     top:2px;
     right:2px;
 }
+#signature{
+    position:fixed;
+    top:0;
+    right:5px;
+    color:#e0e0e0;
+    z-index:999;
+    font-size:0.7em;
+    padding:5px;
+    
+}
 
 .btn{
-    background-color:#8d56fd;
+    background-color:#cf1b1b;
     border:0;
     border-radius:10px;
     color:#FFF;
@@ -100,7 +110,7 @@ ul.songs li{
 .container{
     margin:30px auto;
     max-width:100%;
-    width:500px;
+    width:600px;
 }
 
 .container h2{
